@@ -128,7 +128,7 @@ class DetailsPage extends StatelessWidget {
             ),
           ),
           height: 62,
-          margin: const EdgeInsets.fromLTRB(32, 0, 16, 0),
+          margin: const EdgeInsets.fromLTRB(32, 0, 32, 32),
           padding: const EdgeInsets.fromLTRB(32, 0, 0, 0),
           child: Row(
             mainAxisSize: MainAxisSize.max,

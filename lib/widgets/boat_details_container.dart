@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class BoatDetailsContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return Container(
       margin: EdgeInsets.fromLTRB(0, 12, 0, 12),
       padding: EdgeInsets.all(20),

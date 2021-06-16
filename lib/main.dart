@@ -18,12 +18,7 @@ class MyApp extends StatelessWidget {
         buttonColor: Color(0xFF3b3d41),
         primarySwatch: Colors.blue,
       ),
-      home: Center(
-        child: ConstrainedBox(
-          constraints: BoxConstraints(maxWidth: 400),
-          child: HomePage(),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
