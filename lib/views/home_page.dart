@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:challenge_boat/widgets/boat_card.dart';
 import 'package:challenge_boat/widgets/boat_vertical_list_item.dart';
-import 'package:flutter/material.dart';
 import 'package:card_swiper/card_swiper.dart';
 import 'package:delayed_display/delayed_display.dart';
 
@@ -20,9 +20,7 @@ class HomePage extends StatelessWidget {
               preferredSize: Size(width, height),
               child: Row(
                 children: [
-                  Expanded(
-                    child: Container(),
-                  ),
+                  Spacer(),
                   Container(
                     color: Theme.of(context).disabledColor,
                     width: width * .3,
@@ -81,10 +79,8 @@ class HomePage extends StatelessWidget {
                 ),
                 SliverToBoxAdapter(
                   child: SizedBox(
-                    // padding: const EdgeInsets.all(32.0),
                     height: height * .5,
                     width: width,
-                    // color: Colors.red,
                     child: Stack(
                       children: [
                         Padding(

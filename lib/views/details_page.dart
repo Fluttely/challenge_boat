@@ -1,11 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:challenge_boat/utils/external_icons.dart';
 import 'package:challenge_boat/views/chekout_page.dart';
-import 'package:challenge_boat/widgets/boat_card.dart';
 import 'package:challenge_boat/widgets/boat_details_container.dart';
-import 'package:challenge_boat/widgets/boat_vertical_list_item.dart';
-import 'package:flutter/material.dart';
-import 'package:card_swiper/card_swiper.dart';
-import 'package:delayed_display/delayed_display.dart';
 
 class DetailsPage extends StatelessWidget {
   @override

@@ -1,10 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:challenge_boat/utils/External_icons.dart';
 import 'package:challenge_boat/views/details_page.dart';
-import 'package:flutter/material.dart';
 
 class BoatCard extends StatefulWidget {
-  const BoatCard({Key? key}) : super(key: key);
-
   @override
   _BoatCardState createState() => _BoatCardState();
 }
@@ -74,15 +72,6 @@ class _BoatCardState extends State<BoatCard> {
                     ],
                   ),
                 ),
-                // Expanded(
-                //   child: Container(
-                //     child: Image.asset(
-                //       "assets/images/yacht_1.png",
-                //       // width: 500,
-                //       fit: BoxFit.fitWidth,
-                //     ),
-                //   ),
-                // ),
                 Spacer(),
                 Padding(
                   padding: const EdgeInsets.all(32),
@@ -146,7 +135,6 @@ class _BoatCardState extends State<BoatCard> {
             padding: const EdgeInsets.only(top:96.0),
             child: Image.asset(
               "assets/images/yacht_1.png",
-              // width: 500,
               height: 130,
               fit: BoxFit.fitHeight,
             ),

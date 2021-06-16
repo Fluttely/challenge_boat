@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PaymentMethod extends StatelessWidget {
-  const PaymentMethod({Key? key, this.isCurrentItem = false}) : super(key: key);
+  const PaymentMethod({this.isCurrentItem = false});
   final bool isCurrentItem;
   @override
   Widget build(BuildContext context) {

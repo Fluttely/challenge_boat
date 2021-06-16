@@ -1,12 +1,9 @@
-// import 'package:visibility_detector/visibility_detector.dart';
-import 'package:challenge_boat/widgets/payment_method_card.dart';
 import 'package:flutter/material.dart';
+import 'package:challenge_boat/widgets/payment_method_card.dart';
 import 'package:card_swiper/card_swiper.dart';
 import 'package:delayed_display/delayed_display.dart';
 
 class CheckoutPage extends StatefulWidget {
-  const CheckoutPage({Key? key}) : super(key: key);
-
   @override
   _CheckoutPageState createState() => _CheckoutPageState();
 }
@@ -18,7 +15,6 @@ class _CheckoutPageState extends State<CheckoutPage> {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
-      // backgroundColor: Colors.orange,
       extendBody: true,
       body: PreferredSize(
         preferredSize: Size(width, height),

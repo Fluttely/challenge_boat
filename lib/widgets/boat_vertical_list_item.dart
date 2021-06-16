@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class BoatVerticalListItem extends StatelessWidget {
-  const BoatVerticalListItem({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -10,7 +8,6 @@ class BoatVerticalListItem extends StatelessWidget {
       margin: EdgeInsets.fromLTRB(0, 8, 0, 8),
       height: 80,
       width: width,
-      // color: Colors.green,
       child: Row(
         children: [
           Container(
@@ -36,7 +33,6 @@ class BoatVerticalListItem extends StatelessWidget {
                   "Ocean Yacht",
                   style: TextStyle(
                     fontSize: 18,
-                    // color: Colors.black,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -48,7 +44,6 @@ class BoatVerticalListItem extends StatelessWidget {
                       "4.6",
                       style: TextStyle(
                         fontSize: 18,
-                        // color: Colors.black,
                       ),
                     ),
                   ],
